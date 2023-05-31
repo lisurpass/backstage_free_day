@@ -2,11 +2,11 @@
  * @Description: 
  * @Author: 李超越
  * @Date: 2023-05-31 10:38:08
- * @LastEditTime: 2023-05-31 15:05:32
+ * @LastEditTime: 2023-05-31 17:45:44
  * @LastEditors: 李超越
 -->
 <template>
-  <div>出口</div>
+  <router-view></router-view>
 </template>
 
 <script>
@@ -16,4 +16,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="less">
+#app {
+  height: 100%;
+}
+</style>
